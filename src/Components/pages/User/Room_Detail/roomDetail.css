@@ -1,0 +1,149 @@
+.containercc {
+    margin-top: 110px;
+    width: 100%;
+}
+
+.room_image_size1 {
+    width: 40%;
+    height: 50vh;
+}
+
+.room_image_size2 {
+    width: 30%;
+    height: 50vh;
+}
+
+.room_image_size3 {
+    width: 30%;
+    height: 50vh;
+}
+
+.img {
+    width: 100%;
+    height: 55vh;
+}
+
+.detail {
+    display: flex;
+    /* flex-direction: column; Added to display elements in a column */
+    /* justify-content: end; */
+    margin-right: 2rem;
+}
+
+.detail p {
+    text-align: right;
+    /* Align text to the right */
+}
+
+.detail .room_detail_center {
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.room-details1 {
+    width: 45%;
+    margin-top: 2rem;
+}
+
+.icons {
+    display: flex;
+    width:100%;
+    padding: 1rem;
+    height: fit-content;
+}
+
+.suggested-icons {
+    text-align: center;
+    width: 20%;
+    font-size: 1rem;
+    margin-left: 10px;
+    padding-top: 3px;
+    height: 5vh;
+    border: 1px solid black;
+}
+
+.facilities {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 3rem;
+}
+
+.ratings {
+    margin-top: 2rem;
+    width: 45%;
+    /* Adjust as needed */
+}
+
+.ratings .h3 {
+    margin-bottom: 10px;
+}
+
+.h3 {
+    margin-bottom: 10px;
+
+}
+
+.rating-item {
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 20px;
+    background-color: #007bff;
+}
+
+.button_book {
+    margin-left: -2rem;
+    width: 100%;
+}
+
+.change {
+    width: 100%;
+}
+
+#room_no {
+    border-radius: 20%;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 8rem;
+    
+}
+
+#price {
+   font-weight: 800;
+   font-size: 18px;
+}
+.margin{
+    margin-right: 8px;
+}
+.card1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid black  ;
+    border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+    .card1 {
+        flex-direction: column;
+        
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .card1 {
+        width: 100%;
+    }
+  } 
+  

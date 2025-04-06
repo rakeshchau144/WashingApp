@@ -1,0 +1,61 @@
+.footer {
+  width: 100%;
+  background-color: #faf9f8fc;
+  padding-top: 2rem;
+}
+
+.footerMain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 1rem; /* Add padding for better spacing on mobile */
+}
+
+.footerMain > div {
+  width: 100%; /* Adjust width for mobile */
+  margin-bottom: 2rem; /* Add margin between sections */
+}
+
+.textDecoration a {
+  text-decoration: none;
+  color: black;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn-primary {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .footerMain {
+      padding: 0; 
+  }
+
+  .footerMain > div {
+      width: calc(33.33% - 2rem); 
+      margin-right: 2rem; 
+      margin-bottom: 0;
+  }
+
+  .footerMain > div:last-child {
+      margin-right: 0; 
+  }
+
+  input[type="email"] {
+      width: calc(100% - 100px); 
+      margin-right: 1rem; 
+  }
+
+  .btn-primary {
+      width: 100px;
+  }
+}
+.sizeBTN{
+  width: fit-content;
+  height: fit-content;
+}

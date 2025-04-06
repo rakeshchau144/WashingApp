@@ -1,0 +1,27 @@
+.service{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    
+   
+}
+h3{
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.services{
+    align-items: center;
+    margin-top: 60px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.col{
+    text-align: center;
+    padding-left: 30px;
+}
+.contain{
+    background-color: #cfcfcf;
+}

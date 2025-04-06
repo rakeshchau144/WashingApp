@@ -1,0 +1,99 @@
+.mybooking_flex {
+    display: flex;
+    justify-content: space-between;
+    /* Aligns items with space between them */
+    width: 100%;
+}
+
+.mybookingRight {
+    display: flex;
+    align-items: center;
+}
+
+.checkIn,
+.checkOut {
+    margin-right: 20px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.confirmation-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    /* Set a higher z-index value */
+}
+
+.confirmation-dialog .message {
+    margin-bottom: 20px;
+}
+
+.confirmation-dialog .buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.confirmation-dialog button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.confirmation-dialog button:first-child {
+    background-color: green;
+    color: white;
+}
+
+.confirmation-dialog button:last-child {
+    background-color: red;
+    color: white;
+}
+
+.feedback-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+
+.feedback-modal .feedback-form {
+    margin-bottom: 20px;
+}
+
+.feedback-modal .button {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback-modal button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.feedback-modal button[type="submit"] {
+    background-color: green;
+    color: white;
+}
+
+.feedback-modal button[type="button"] {
+    background-color: red;
+    color: white;
+}

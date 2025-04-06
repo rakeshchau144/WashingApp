@@ -1,0 +1,15 @@
+.background{
+    display: flex;
+    justify-content: center;
+}
+.roomsize{
+    background-color: aliceblue;
+    height: fit-content;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 2%;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}

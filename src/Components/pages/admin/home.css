@@ -1,0 +1,72 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure navbar appears above other content */
+  } 
+.container111{
+    margin-top: -5rem;
+}
+
+.room_button{
+    margin-left: .5rem;
+    display: inline;
+}
+.maindiv {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.childleft {
+    width: 15%;
+    height: 100vh;
+    align-items: flex-start;
+    background-color: rgb(4, 47, 47);
+    overflow-y: hidden;
+}
+
+.childright {
+    width: 85%;
+    height: 100vh;
+    align-items: end;
+    background-color: aliceblue;
+    overflow-y: scroll;
+}
+
+.heading_admin {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    height: auto;
+    font-size: 2rem;
+    margin: 15px;
+    margin-left: 1rem;
+    border-radius: 5px;
+    text-shadow: 2px 2px 5px blue;
+    font-weight: 700;
+    box-shadow: inset;
+    background-color:white;
+}
+
+.buttons {
+    margin-top: 39px;
+}
+
+.box {
+    display: flex;
+    margin-bottom: 0.4rem;
+    color: aliceblue;
+    background-color: rgb(7, 78, 53);
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 5px red;
+    padding-left: 0.4rem;
+}
+.roomsize{
+    width: 50%;
+    
+}
+.user_box{
+    width: 100%;
+}

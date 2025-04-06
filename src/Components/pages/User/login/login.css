@@ -1,0 +1,35 @@
+/* navbar.css */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure navbar appears above other content */
+  }  
+  .background{
+    margin-top: 15vh;
+    height: 100vh;
+    /* background-image: url("../../../../asserst/img/jpeg/room-8.jpeg"); */
+    display: flex;
+    justify-content: center;
+  }
+  .span_login{
+    font-size: 3rem;
+    text-align: center;
+    padding-right:10rem ;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+  }
+  .button_login{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  button{
+    margin-left: 1.6rem;
+  }
+  
+  

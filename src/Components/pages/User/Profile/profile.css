@@ -1,0 +1,26 @@
+.profile_container{
+    margin-top: 5.7rem;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+.profile_colLeft{
+    width: 15%;
+    /* border: 2px solid black; */
+    align-items: flex-start;
+    background-color: beige;
+    overflow-y: hidden;
+
+}
+.profile_colRight{
+    width: 85%;
+    align-items: end;
+    background-color: antiquewhite;
+    overflow-y: scroll;
+
+}
+.profile_box{
+    border: 2px solid beige;
+}

@@ -1,0 +1,192 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: whitesmoke;
+  z-index: 1;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center; /* Center vertically */
+  padding: 1rem; /* Add padding for better spacing */
+}
+
+.nav-header {
+  font-style: oblique;
+  text-align: center;
+}
+
+.shift {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column; /* Stack links vertically on small screens */
+  align-items: center; /* Center links vertically on small screens */
+}
+
+.nav-links li {
+  margin: 0.5rem 0; /* Adjust spacing between links */
+}
+
+.nav-links li a {
+  text-decoration: none; 
+  color: black;
+}
+
+/* Media query for responsiveness */
+@media screen and (min-width: 768px) {
+  .nav-links {
+    flex-direction: row; /* Switch back to horizontal layout on larger screens */
+  }
+  
+  .nav-links li {
+    margin: 0 1rem; /* Adjust horizontal spacing between links */
+  }
+}
+
+/* Style for active link */
+.nav-links li a.active {
+  font-weight: bold;
+}
+
+/* Style for hover effect */
+.nav-links li a:hover {
+  color: rgb(42, 42, 135);
+}
+
+.nav-links.show-nav {
+  display: flex;
+}
+
+/* end of navbar */
+
+
+/* services */
+.services {
+  padding: 1rem 0;
+}
+.services {
+  background: var(--darkGrey);
+  text-align: center;
+}
+.services-center {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 50px;
+}
+.service span {
+  display: inline-block;
+  color: var(--primaryColor);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.services h6 {
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+}
+.services p {
+  width: 80%;
+  margin: 0 auto;
+  color: var(--mainBlack);
+}
+@media screen and (min-width: 992px) {
+  .services-center {
+    width: 95vw;
+    max-width: 1170px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .services p {
+    width: 100%;
+  }
+}
+/*end of services */
+/* featured rooms */
+
+/* end pf featured rooms */
+
+
+/*-----room item set-------*/
+
+
+
+
+
+
+/*-----room end set-------*/
+/*-----------Booking form------*/
+
+.form{
+  margin-top: 100px;
+  height: 200px;
+  width: 100%;
+  border:2px solid black
+}
+/*-----------booking form end-----*/
+.home{
+  width: 100%;
+}
+.ss{
+  /* border: 2px solid black; */
+  border-radius: 15px;
+  color: rgb(7, 1, 1);
+  width: 50%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+.cls{
+  display: flex;
+  justify-content: center;
+}

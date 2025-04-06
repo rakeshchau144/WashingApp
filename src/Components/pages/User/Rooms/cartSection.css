@@ -1,0 +1,74 @@
+#p {
+  color: black;
+  margin-top: 0%;
+}
+
+.room {
+  display: flex;
+  justify-content: center;
+}
+
+.room-name {
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.room-image {
+  width: 100%;
+}
+
+.room-price {
+  font-size: 30px;
+  font-weight: 1000;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  margin-bottom: 20px;
+  background-color: #fff; /* You can adjust background color as needed */
+  /* border-radius: 8px; */
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  
+}
+
+ @media screen and (max-width: 768px) {
+  .card {
+      flex-direction: column;
+      
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+      width: 100%;
+  }
+} 
+.cursor-pointer{
+  display: flex;
+  justify-content: space-between;
+}
+.two{
+  display: flex;
+ 
+}
+
+
+
+
+

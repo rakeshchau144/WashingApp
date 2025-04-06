@@ -1,0 +1,28 @@
+.background {
+   
+    background-repeat: no-repeat;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.book_h3 {
+    margin-top: 10rem;
+    font-size: 2rem;
+    color: aliceblue;
+    text-shadow: 5px 5px 10px black;
+}
+
+.book_form {
+    background-color: aliceblue;
+    border-radius: 2%;
+    margin-top: 3rem;
+    padding: 1.5rem;
+
+}
+.bodyElement{
+    margin-top: 5rem;
+}
+

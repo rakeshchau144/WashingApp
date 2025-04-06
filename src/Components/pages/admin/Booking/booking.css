@@ -1,0 +1,24 @@
+.bookings{
+    width: 100%;
+    height: auto;
+    background-color: green;
+    
+    font-weight: 700;
+}
+.available {
+    background-color: green;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .unavailable {
+    text-align: center;
+    background-color: red;
+    border-radius: 15px;
+  }
+  .pending{
+    text-align: center;
+    background-color: yellow;
+    border-radius: 15px;
+  }
+  
